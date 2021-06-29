@@ -1,0 +1,22 @@
+.disucss_content{
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+}
+.centring{
+    align-items: flex-start;
+    padding-left: 0%;
+}
+.centring:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.centring button:not(:last-child) {
+  border-right: none; 
+}
+
+.centring button:hover {
+  background-color: #757175;
+}
